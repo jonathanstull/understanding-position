@@ -38,7 +38,35 @@ div.sticky {
 
 img {
   position: absolute;
+  width: 20%;
   left: 0px;
   top: 0px;
   z-index: -1;
 }
+
+
+
+/* .left { 
+
+  position: absolute; - stays in the position defined on the page (scroll away from it possible)
+  position: fixed; - Stays in the same position defined even when scrolling (side bar, or a nav bar)
+  margin-left: 50px;
+
+  z-index: <some number> the higher the number the more ontop the element will be, and the lower will make it beneath other elements. 
+  
+  z-index: 0 
+ 
+ img { z-index: -1} 
+ abovetext { z-index: 1}
+
+  float: ___----_________________________
+
+  red and blue box slightly transparent
+  red box float left
+
+  blue box appears over/under it, purple section
+
+
+
+
+ } */
